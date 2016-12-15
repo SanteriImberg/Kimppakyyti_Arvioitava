@@ -1,0 +1,124 @@
+.form-style-6 {
+    font: 100% Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    font-style: italic;
+}
+/*.form-style-6 h1{
+
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}*/
+.paikka input[type="text"],
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 input[type="password"],
+.form-style-6 input[type="file"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+    display:table;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 100% Arial, Helvetica, sans-serif;
+          /*  font: 100% Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            border: 2px solid #CCCCCC;
+            border-radius: 20px 20px 20px 20px;
+            font-size: 24px;
+            height: 45px;
+            line-height: 30px;
+            outline: medium none;
+            padding: 4%;
+            width: 100%;
+            */
+}
+.paikka input[type="text"],
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 input[type="password"]:focus,
+.form-style-6 input[type="file"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #fff;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="reset"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 49%;
+    padding: 3%;
+    font-size: 16px;
+    background-color: #8CD0D0;
+    border-bottom: 2px solid #BADBDB;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+
+.form-style-6 input[name="picupdate"]{
+    width: 100%;
+}
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="reset"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #60848C;
+    border-bottom: 2px solid #60848C;
+}
+
+.paikka, .tt-hint{}
+  .tt-dropdown-menu {
+            width: 100%;
+            margin-top: 5px;
+            padding: 8px 10%;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 8px 8px 8px 8px;
+            font-size: 18px;
+            color: #111;
+            background-color: #F1F1F1;
+        }
+}
+
+
